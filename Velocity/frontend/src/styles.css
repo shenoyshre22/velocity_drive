@@ -1,0 +1,10 @@
+body, html, #root { height: 100%; margin: 0; font-family: Arial, sans-serif; background: linear-gradient(180deg,#0f172a,#001219); color: #fff; }
+.container { max-width: 960px; margin: 24px auto; padding: 16px; background: rgba(255,255,255,0.03); border-radius: 8px; }
+.btn { padding: 10px 14px; border-radius: 8px; border: none; cursor: pointer; background: #06b6d4; color: #001; font-weight: bold; }
+.header { display:flex; justify-content:space-between; align-items:center; }
+.row { display:flex; gap:12px; align-items:center; }
+.center { text-align:center; }
+.input { padding:8px 10px; border-radius:6px; border:1px solid rgba(255,255,255,0.1); background:transparent; color:#fff; }
+.menu { display:flex; flex-direction:column; gap:10px; align-items:center; margin-top:20px; }
+.canvas-wrap { height: 500px; border-radius:8px; overflow:hidden; background:#081226; }
+.small { font-size:14px; color:#cbd5e1; }
