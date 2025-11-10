@@ -1,0 +1,10 @@
+/* Remove default margin from the page */
+body {
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+/* Make the canvas created by Three.js fill the window */
+canvas {
+    display: block;
+}
